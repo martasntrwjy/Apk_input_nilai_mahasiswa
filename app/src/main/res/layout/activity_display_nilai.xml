@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DisplayNilai">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="@string/NPM" />
+        <EditText
+            android:id="@+id/npm"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint=""
+            android:inputType="number"
+            android:maxLength="12"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nama" />
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint=""
+            android:inputType="textCapWords"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="@string/kelas" />
+        <EditText
+            android:id="@+id/kelas"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint=""
+            android:inputType="textCapWords"
+            android:layout_marginBottom="10dp"
+            android:onClick="pilihKelas"
+            android:focusableInTouchMode="false" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nilai_tugas" />
+        <EditText
+            android:id="@+id/nilai_tugas"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:autofillHints="0"
+            android:hint=""
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nilai_kuis" />
+        <EditText
+            android:id="@+id/nilai_kuis"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:autofillHints="0"
+            android:hint=""
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nilai_uts" />
+        <EditText
+            android:id="@+id/nilai_uts"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:autofillHints="0"
+            android:hint=""
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nilai_uas" />
+        <EditText
+            android:id="@+id/nilai_uas"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:autofillHints="0"
+            android:hint=""
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nilai_akhir" />
+        <EditText
+            android:id="@+id/nilai_akhir"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint=""
+            android:layout_marginBottom="20dp"
+            android:enabled="false"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/buttonSimpan"
+            android:layout_width="370dp"
+            android:layout_height="60dp"
+            android:onClick="simpan"
+            android:text="@string/simpan_data" />
+    </LinearLayout>
+</ScrollView>

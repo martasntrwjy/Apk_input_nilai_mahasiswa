@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Aplikasi Daftar Nilai Mahasiswa 📂</string>
+    <string name="tab">\u0009</string>
+    <string name="edit_data">Edit Data</string>
+    <string name="hapus_data">Hapus Data</string>
+    <string name="tambah_data">Tambah Data</string>
+    <string name="manajemen_database_nsqlite_point">Manajemen Database\nSQLite Point</string>
+    <string name="jumlah_data">Jumlah Data :</string>
+    <string name="nim">NPM</string>
+    <string name="nama">Nama</string>
+    <string name="kelas">Kelas</string>
+    <string name="nilai_tugas">Nilai Tugas</string>
+    <string name="nilai_uts">Nilai UTS</string>
+    <string name="nilai_uas">Nilai UAS</string>
+    <string name="nilai_akhir">Nilai Akhir</string>
+    <string name="simpan_data">TAMBAH DATA</string>
+    <string name="pilih_kelas">Tampil Kelas</string>
+    <string name="NPM">NPM</string>
+    <string name="nilai_kuis">Nilai Kuis</string>
+    <string name="logout">LOGOUT</string>
+    <string name="login">LOGIN</string>
+    <string name="belum_punya_akun">Belum Punya Akun?</string>
+    <string name="daftar">DAFTAR</string>
+    <string-array name="kelas_array">
+        <item>Semua</item>
+        <item>MI 5A</item>
+        <item>MI 5B</item>
+        <item>MI 5C</item>
+
+    </string-array>
+</resources>
